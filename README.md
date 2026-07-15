@@ -1,52 +1,45 @@
-Employee Attrition Data Engineering
+# Employee Attrition Data Engineering
 
-"Python" (https://img.shields.io/badge/Python-3.10-blue)
-"Pandas" (https://img.shields.io/badge/Pandas-2.x-green)
-"SQLite" (https://img.shields.io/badge/SQLite-Database-blue)
-"Plotly" (https://img.shields.io/badge/Plotly-Interactive-orange)
-"License" (https://img.shields.io/badge/License-MIT-success)
-"Status" (https://img.shields.io/badge/Status-Completed-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.10-blue) ![Pandas](https://img.shields.io/badge/Pandas-2.x-green) ![SQLite](https://img.shields.io/badge/SQLite-Database-blue) ![Plotly](https://img.shields.io/badge/Plotly-Interactive-orange) ![License](https://img.shields.io/badge/License-MIT-success) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-«A Production-Ready Data Engineering Project for Employee Attrition Analysis using Python, SQL, SQLite, and Exploratory Data Analysis (EDA).»
+*A Production-Ready Data Engineering Project for Employee Attrition Analysis using Python, SQL, SQLite, and Exploratory Data Analysis (EDA).*
 
 ---
 
-Project Overview
+## Project Overview
 
 Employee attrition is one of the biggest challenges faced by Human Resource (HR) departments. Losing experienced employees increases recruitment costs, onboarding time, training expenses, and reduces overall organizational productivity.
 
 This project demonstrates a complete production-style Data Engineering workflow using the IBM HR Analytics Employee Attrition & Performance dataset. The project covers data ingestion, validation, cleaning, transformation, feature engineering, SQL database integration, and Exploratory Data Analysis (EDA) to generate meaningful business insights.
 
-This repository represents Part 1 of the End-to-End Applied AI & ML Data Product Capstone Project.
+This repository represents **Part 1** of the End-to-End Applied AI & ML Data Product Capstone Project.
 
 ---
 
-Repository
+## Repository
 
-Repository Name
+### Repository Name
 
-employee-attrition-data-engineering
+`employee-attrition-data-engineering`
 
-Repository URL
+### Repository URL
 
 https://github.com/pramodj551-oss/employee-attrition-data-engineering
 
-Repository Description
+### Repository Description
 
 Production-ready Data Engineering project demonstrating ETL, Data Cleaning, SQL integration, Exploratory Data Analysis (EDA), and Business Insights using the IBM HR Analytics Employee Attrition dataset.
 
 ---
 
-Business Problem
+## Business Problem
 
 Organizations need to answer two important analytical questions:
 
-Descriptive Analytics
-
+**Descriptive Analytics**
 - What happened?
 
-Diagnostic Analytics
-
+**Diagnostic Analytics**
 - Why did it happen?
 
 This project helps answer questions such as:
@@ -61,7 +54,7 @@ This project helps answer questions such as:
 
 ---
 
-Project Objectives
+## Project Objectives
 
 - Build a production-ready Data Engineering pipeline.
 - Load and validate raw employee data.
@@ -76,32 +69,34 @@ Project Objectives
 
 ---
 
-Dataset
+## Dataset
 
-Dataset Name
+### Dataset Name
 
 IBM HR Analytics Employee Attrition & Performance
 
-Source
+### Source
 
 IBM HR Analytics Sample Dataset (Available through public data repositories such as Kaggle)
 
-Dataset Statistics
+### Dataset Statistics
 
-Attribute| Value
-Total Records| 1470
-Total Features| 35
-Missing Values| 0
-Duplicate Records| 0
+| Attribute | Value |
+|---|---|
+| Total Records | 1470 |
+| Total Features | 35 |
+| Missing Values | 0 |
+| Duplicate Records | 0 |
 
-Dataset Location
+### Dataset Location
 
-data/raw/employee_attrition.csv
+`data/raw/employee_attrition.csv`
 
 ---
 
-Repository Structure
+## Repository Structure
 
+```
 employee-attrition-data-engineering/
 │
 ├── data/
@@ -142,10 +137,11 @@ employee-attrition-data-engineering/
 ├── .gitignore
 ├── .env.example
 └── main.py
+```
 
 ---
 
-Technology Stack
+## Technology Stack
 
 - Python
 - Pandas
@@ -161,7 +157,7 @@ Technology Stack
 
 ---
 
-Key Features
+## Key Features
 
 - Production-ready Project Structure
 - Data Loading Pipeline
@@ -179,8 +175,9 @@ Key Features
 
 ---
 
-Data Engineering Workflow
+## Data Engineering Workflow
 
+```
 Raw Dataset
       │
       ▼
@@ -209,10 +206,11 @@ Exploratory Data Analysis
       │
       ▼
 Business Insights
+```
 
 ---
 
-Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The project includes:
 
@@ -233,7 +231,7 @@ The project includes:
 
 ---
 
-SQL Analysis
+## SQL Analysis
 
 The SQL module provides:
 
@@ -250,41 +248,48 @@ The SQL module provides:
 
 ---
 
-Installation
+## Installation
 
-Clone Repository
+### Clone Repository
 
+```bash
 git clone https://github.com/pramodj551-oss/employee-attrition-data-engineering.git
-
 cd employee-attrition-data-engineering
+```
 
-Create Virtual Environment
+### Create Virtual Environment
 
-Windows
+**Windows**
 
+```bash
 python -m venv venv
-
 venv\Scripts\activate
+```
 
-Linux / macOS
+**Linux / macOS**
 
+```bash
 python3 -m venv venv
-
 source venv/bin/activate
+```
 
-Install Dependencies
+### Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
-Run Project
+## Run Project
 
+```bash
 python main.py
+```
 
 ---
 
-Generated Outputs
+## Generated Outputs
 
 After running the project, the following outputs are automatically generated:
 
@@ -295,17 +300,14 @@ After running the project, the following outputs are automatically generated:
 - Business Reports
 - Application Logs
 
-Output Directories
+**Output Directories**
 
-outputs/
-
-and
-
-data/processed/
+- `outputs/`
+- `data/processed/`
 
 ---
 
-Sample Outputs
+## Sample Outputs
 
 The project generates:
 
@@ -318,7 +320,7 @@ The project generates:
 
 ---
 
-Business Insights
+## Business Insights
 
 This analysis helps HR teams answer important business questions:
 
@@ -332,7 +334,7 @@ This analysis helps HR teams answer important business questions:
 
 ---
 
-Future Improvements
+## Future Improvements
 
 - Automated ETL Pipeline
 - Apache Airflow Integration
@@ -345,11 +347,11 @@ Future Improvements
 
 ---
 
-Project Status
+## Project Status
 
-Status: ✅ Completed (Part 1)
+**Status:** ✅ Completed (Part 1)
 
-Completed Modules:
+**Completed Modules:**
 
 - Data Engineering Pipeline
 - Data Cleaning
@@ -360,44 +362,33 @@ Completed Modules:
 - Exploratory Data Analysis
 - Business Insights
 
-Next Repository
-
-Employee Attrition Prediction using Machine Learning (Part 2)
+**Next Repository:** Employee Attrition Prediction using Machine Learning (Part 2)
 
 ---
 
-Author
+## Author
 
-Pramod Prakash Jadhav
+**Pramod Prakash Jadhav**
 
-AI/ML Developer | Security Analyst
+*AI/ML Developer | Security Analyst*
 
-📧 Email: pramodj551@gmail.com
-
-💼 LinkedIn
-
-https://www.linkedin.com/in/pramod-prakash-jadhav-42ba2281
-
-💻 GitHub
-
-https://github.com/pramodj551-oss
-
-📂 Project Repository
-
-https://github.com/pramodj551-oss/employee-attrition-data-engineering
+- 📧 Email: [pramodj551@gmail.com](mailto:pramodj551@gmail.com)
+- 💼 LinkedIn: [pramod-prakash-jadhav-42ba2281](https://www.linkedin.com/in/pramod-prakash-jadhav-42ba2281)
+- 💻 GitHub: [pramodj551-oss](https://github.com/pramodj551-oss)
+- 📂 Project Repository: [employee-attrition-data-engineering](https://github.com/pramodj551-oss/employee-attrition-data-engineering)
 
 ---
 
-Connect with Me
+## Connect with Me
 
-- GitHub: https://github.com/pramodj551-oss
-- LinkedIn: https://www.linkedin.com/in/pramod-prakash-jadhav-42ba2281
+- GitHub: [https://github.com/pramodj551-oss](https://github.com/pramodj551-oss)
+- LinkedIn: [https://www.linkedin.com/in/pramod-prakash-jadhav-42ba2281](https://www.linkedin.com/in/pramod-prakash-jadhav-42ba2281)
 
 I am passionate about Artificial Intelligence, Machine Learning, Data Engineering, Cybersecurity, and Data Analytics. This project demonstrates the design and implementation of a production-ready data engineering pipeline using Python, SQL, SQLite, and modern analytics tools.
 
 ---
 
-Acknowledgements
+## Acknowledgements
 
 - IBM HR Analytics Dataset
 - Pandas Documentation
@@ -410,13 +401,13 @@ Acknowledgements
 
 ---
 
-License
+## License
 
-This project is licensed under the MIT License. See the "LICENSE" file for more information.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ---
 
-Submission Checklist
+## Submission Checklist
 
 - [x] Production-ready Folder Structure
 - [x] Modular Python Code
